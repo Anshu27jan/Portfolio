@@ -1,0 +1,59 @@
+.projects-tabs .nav-item .nav-link{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+}
+.projects-tabs .nav-item .active{
+    border: 0;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-weight: 600;
+}
+.projects-tabs .nav-item .active:hover{
+    border-bottom: 1px solid #000;
+}
+.projects-tabs .nav-item .nav-link:hover{
+    border: none;
+}
+.professional-container .row{
+    background-color: #FAFAFA;
+}
+.professional-container p , .professional-container li{
+    color: #383838;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.professional-container h3{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600;
+}
+.professional-container h4{
+    color: #000000;
+    font-size: 19px;
+    font-weight: 600;
+}
+@media screen and (max-width:576px) {
+    .professional-container{
+        text-align: center;
+    }
+    .professional-container h4{
+        text-align: left;
+    }
+    .professional-container li{
+        text-align: left;
+    }
+}
+.education-container .row{
+    background-color: transparent;
+}
+.education-container .new-row{
+    background-color: #FAFAFA;
+}
+.skill-container h3{
+    font-size: 15px;
+}
+.skill-container p{
+    font-size: 13px;
+}
