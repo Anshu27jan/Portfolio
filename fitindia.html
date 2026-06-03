@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Design System & Operation — Saati Chandy</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="fitindiastyle.css">
+</head>
+<body>
+ 
+<div id="cd"></div>
+<div id="cr"></div>
+ 
+<!-- NAV -->
+<nav id="topnav">
+  <a href="portfolio.html" class="back-link"><i class="bi bi-arrow-left"></i> Back</a>
+  <span class="nav-center">Design System &amp; Operation</span>
+  <span style="width:60px"></span>
+</nav>
+ 
+<div class="cs-wrap">
+ 
+  <!-- ══ INTRO ══ -->
+  <div class="intro-section r">
+    <div class="intro-grid">
+      <div>
+        <span class="intro-eyebrow">UI/UX · Design Systems · 2023–2024</span>
+        <h1 class="intro-title">Design System &amp; Operation</h1>
+        <p class="intro-lead">As Sprinklr's product suite scaled rapidly, design was not keeping pace. I redesigned the entire foundation — from tokens to components — turning 200+ fragmented UI patterns into one unified, living system used across 6 product teams.</p>
+      </div>
+      <div class="r d2">
+        <span class="resp-label">My Responsibilities</span>
+        <ul class="resp-list">
+          <li>Token architecture</li>
+          <li>Component design</li>
+          <li>System documentation</li>
+          <li>Cross-team adoption</li>
+          <li>Governance &amp; versioning</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+ 
+<!-- ══════════════════════════════════════
+     IMAGE 1 — Hero / Full overview shot
+     → Replace src="#" with your image
+════════════════════════════════════════ -->
+<div class="img-block r">
+  <div class="img-block-inner">
+    <span class="img-label">Design Overview</span>
+    <img
+      class="img-slot"
+      src="#"
+      alt="Design System Overview"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+    />
+    <!-- placeholder shown until you add your image -->
+    <div class="img-placeholder" style="display:none;width:100%;aspect-ratio:16/7;border-radius:12px;border:2px dashed var(--border);background:var(--card);align-items:center;justify-content:center;flex-direction:column;gap:12px;color:var(--muted)">
+      <i class="bi bi-image" style="font-size:40px;opacity:.3"></i>
+      <span style="font-size:13px;letter-spacing:.04em">Add your image — replace src="#" with your file path</span>
+    </div>
+    <div class="img-caption">Design System — Full Overview · Sprinklr 2024</div>
+  </div>
+</div>
+ 
+<div class="cs-wrap">
+ 
+  <!-- ══ BACKGROUND & PROBLEM ══ -->
+  <div class="cs-section">
+    <div class="cs-2col">
+      <div class="cs-left r">
+        <span class="cs-sec-label">Background</span>
+        <h2 class="cs-heading">Background &amp; Problem Space</h2>
+      </div>
+      <div class="cs-right r d2">
+        <p class="cs-body">Sprinklr's product suite had grown fast. But design wasn't keeping up — different teams built components independently, each with their own interpretation of colour, spacing, and interaction.</p>
+        <p class="cs-body" style="margin-top:12px">This created <strong style="color:#ccc">significant friction</strong> across the lifecycle, especially during:</p>
+        <ul class="cs-bullets">
+          <li><strong>Designer onboarding</strong> — no single reference to work from</li>
+          <li><strong>Developer handoff</strong> — components rebuilt multiple times across codebases</li>
+          <li><strong>Cross-team collaboration</strong> — no shared language, constant rework</li>
+          <li><strong>Product consistency</strong> — users experienced jarring visual differences across the same platform</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- ══ WHY A DESIGN SYSTEM ══ -->
+  <div class="cs-section">
+    <div class="cs-2col">
+      <div class="cs-left r">
+        <span class="cs-sec-label">The Problem</span>
+        <h2 class="cs-heading">Why a Design System?</h2>
+      </div>
+      <div class="cs-right r d2">
+        <p class="cs-body">A full audit revealed the scale of the problem. Siloed design had caused chaos hidden behind a product:</p>
+        <ul class="cs-bullets">
+          <li><strong>200+ components</strong> built in isolation across 6 product teams</li>
+          <li>Higher cognitive load due to <em>multiple inconsistencies</em> per page</li>
+          <li>Friction when onboarding new designers was <em>significantly higher</em></li>
+          <li>Only <em>~40% of released pages</em> used consistent token values</li>
+          <li>Engineers couldn't share active components — leading to <strong>duplication and slowdown</strong></li>
+          <li>Revenue leakage due to poor clarity and <em>lack of shared decisions</em></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+ 
+<!-- ══════════════════════════════════════
+     IMAGE 2 — Before / After comparison
+     → Replace src="#" with your image
+════════════════════════════════════════ -->
+<div class="img-block r">
+  <div class="img-block-inner">
+    <span class="img-label">Before &amp; After — Component Inconsistency</span>
+    <img
+      class="img-slot"
+      src="#"
+      alt="Before and After comparison"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+    />
+    <div class="img-placeholder" style="display:none;width:100%;aspect-ratio:16/7;border-radius:12px;border:2px dashed var(--border);background:var(--card);align-items:center;justify-content:center;flex-direction:column;gap:12px;color:var(--muted)">
+      <i class="bi bi-image" style="font-size:40px;opacity:.3"></i>
+      <span style="font-size:13px;letter-spacing:.04em">Add your before/after comparison image here</span>
+    </div>
+    <div class="img-caption">Before vs After — Visual inconsistency across teams resolved</div>
+  </div>
+</div>
+ 
+<div class="cs-wrap">
+ 
+  <!-- ══ KEY CHALLENGES ══ -->
+  <div class="cs-section">
+    <div class="cs-2col">
+      <div class="cs-left r">
+        <span class="cs-sec-label">Discovery</span>
+        <h2 class="cs-heading">Key Challenges</h2>
+      </div>
+      <div class="cs-right r d2">
+        <ul class="cs-bullets">
+          <li>Decision fatigue caused by <strong>fragmented systems</strong> and repeated choices</li>
+          <li><em>Low visibility</em> of high-intent sign-off efforts across teams</li>
+          <li>Lack of <strong>flexibility</strong> in layout and structure for the design system</li>
+          <li>Friction when users faced <em>unexpected rejection</em> of component updates</li>
+          <li>Lack of visual cues after applying tokens — leading to <strong>confusion and slowdown</strong></li>
+          <li>Revenue leakage due to poor <strong>clarity, decisions</strong> and <em>deletions</em></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- ══ DESIGN OBJECTIVES ══ -->
+  <div class="cs-section">
+    <div class="cs-2col">
+      <div class="cs-left r">
+        <span class="cs-sec-label">Strategy</span>
+        <h2 class="cs-heading">Design Objectives</h2>
+      </div>
+      <div class="cs-right r d2">
+        <ul class="cs-bullets">
+          <li><strong>Reduce cognitive load</strong> and friction on critical decision points</li>
+          <li>Improve clarity, transparency, and <em>confidence in selection</em></li>
+          <li>Make <strong>comparisons quick</strong> and intuitive with a <em>hierarchy-first</em> layout</li>
+          <li>Increase <em>component adoption</em> as a key driver of system health</li>
+          <li>Increase <strong>funnel momentum</strong> with outstanding lender visibility and consistent token use</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+ 
+<!-- ══════════════════════════════════════
+     IMAGE 3 — Component Library full view
+     → Replace src="#" with your image
+════════════════════════════════════════ -->
+<div class="img-block r">
+  <div class="img-block-inner">
+    <span class="img-label">Component Library</span>
+    <img
+      class="img-slot"
+      src="#"
+      alt="Component Library"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+    />
+    <div class="img-placeholder" style="display:none;width:100%;aspect-ratio:16/8;border-radius:12px;border:2px dashed var(--border);background:var(--card);align-items:center;justify-content:center;flex-direction:column;gap:12px;color:var(--muted)">
+      <i class="bi bi-image" style="font-size:40px;opacity:.3"></i>
+      <span style="font-size:13px;letter-spacing:.04em">Add your component library screenshot here</span>
+    </div>
+    <div class="img-caption">Component Library — 80 components, all states, all variants · Figma</div>
+  </div>
+</div>
+ 
+<div class="cs-wrap">
+ 
+  <!-- ══ WHAT I DESIGNED ══ -->
+  <div class="cs-section">
+    <div class="cs-2col">
+      <div class="cs-left r">
+        <span class="cs-sec-label">Solution</span>
+        <h2 class="cs-heading">What I Designed</h2>
+      </div>
+      <div class="cs-right r d2">
+        <p class="cs-body">I redesigned the entire design foundation for Sprinklr — covering both the component system and the operational layer that makes it sustainable.</p>
+        <ul class="cs-bullets">
+          <li><strong>Unified component library</strong> — single Figma file, 80 components, all states, all sizes, all variants</li>
+          <li>Enabled <em>quick selection</em> by allowing clear and easily performing expected interactions</li>
+          <li>Enabled <strong>lender discovery</strong> through high-visibility business channel CTAs and urgency cues</li>
+          <li>Verified flexibility in <em>set-up efforts</em>, allowing merchants to <em>adjust loan amounts</em> and tenure</li>
+          <li><em>1.8% users modified</em> their loan amount from default — 14% applied highest tenure despite shorter being default</li>
+          <li>Ensured <strong>post-application transparency</strong> by outlining active loan details, reducing confusion</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+ 
+<!-- ══════════════════════════════════════
+     IMAGE 4 — Token System / Design Tokens
+     → Replace src="#" with your image
+════════════════════════════════════════ -->
+<div class="img-block r">
+  <div class="img-block-inner">
+    <span class="img-label">Design Token System</span>
+    <img
+      class="img-slot"
+      src="#"
+      alt="Design Token System"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+    />
+    <div class="img-placeholder" style="display:none;width:100%;aspect-ratio:16/7;border-radius:12px;border:2px dashed var(--border);background:var(--card);align-items:center;justify-content:center;flex-direction:column;gap:12px;color:var(--muted)">
+      <i class="bi bi-image" style="font-size:40px;opacity:.3"></i>
+      <span style="font-size:13px;letter-spacing:.04em">Add your token system / colour palette image here</span>
+    </div>
+    <div class="img-caption">Design Token Architecture — Primitive → Semantic → Component</div>
+  </div>
+</div>
+ 
+<!-- ══════════════════════════════════════
+     IMAGE 5 — Two screens side by side
+     → Replace src="#" in both with your images
+════════════════════════════════════════ -->
+<div class="img-block r">
+  <div class="img-block-inner">
+    <span class="img-label">Final Screens</span>
+    <div class="img-2col">
+ 
+      <div>
+        <img
+          class="img-slot"
+          src="#"
+          alt="Screen 1"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+        />
+        <div class="img-placeholder" style="display:none;width:100%;aspect-ratio:4/3;border-radius:10px;border:2px dashed var(--border);background:var(--card);align-items:center;justify-content:center;flex-direction:column;gap:10px;color:var(--muted)">
+          <i class="bi bi-image" style="font-size:32px;opacity:.3"></i>
+          <span style="font-size:12px">Screen 1 — e.g. Analytics view</span>
+        </div>
+        <div class="img-caption" style="margin-top:8px">Analytics Dashboard</div>
+      </div>
+ 
+      <div>
+        <img
+          class="img-slot"
+          src="#"
+          alt="Screen 2"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+        />
+        <div class="img-placeholder" style="display:none;width:100%;aspect-ratio:4/3;border-radius:10px;border:2px dashed var(--border);background:var(--card);align-items:center;justify-content:center;flex-direction:column;gap:10px;color:var(--muted)">
+          <i class="bi bi-image" style="font-size:32px;opacity:.3"></i>
+          <span style="font-size:12px">Screen 2 — e.g. Component spec</span>
+        </div>
+        <div class="img-caption" style="margin-top:8px">Component Specification</div>
+      </div>
+ 
+    </div>
+  </div>
+</div>
+ 
+<div class="cs-wrap">
+ 
+  <!-- ══ RESULTS & IMPACT ══ -->
+  <div class="results-section">
+    <div class="cs-2col" style="margin-bottom:36px">
+      <div class="cs-left r">
+        <span class="cs-sec-label">Outcomes</span>
+        <h2 class="cs-heading">Results and Impact</h2>
+      </div>
+      <div class="cs-right r d1">
+        <p class="cs-body">Measured 6 months after full adoption across all 6 product teams at Sprinklr.</p>
+      </div>
+    </div>
+ 
+    <div class="results-grid r d2">
+      <div>
+        <div class="result-big" data-target="40">0%</div>
+        <div class="result-sub">Reduction in design rework time</div>
+        <div style="font-size:12px;color:var(--muted);margin-bottom:10px;font-style:italic">Design System Adoption</div>
+        <ul class="result-bullets">
+          <li>Phase 1 — 60 days: 62% teams onboarded</li>
+          <li>Phase 2 — 90 days: 88% adoption rate</li>
+          <li>Phase 3 — 6 months: 98% adoption confirmed</li>
+          <li>80% component reuse across all products</li>
+          <li>3× faster component handoff to engineering</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pct-num">98%</div>
+        <div class="pct-label">Designer adoption rate across all teams in under 3 months</div>
+        <div style="font-size:12px;color:var(--muted);margin-bottom:10px;font-style:italic">Operational Impact</div>
+        <ul class="pct-sub-bullets">
+          <li>Component-to-token alignment increased significantly</li>
+          <li>Average rework time reduced by <strong style="color:#ccc">1 month</strong></li>
+          <li>Overall funnel conversion improved by <strong style="color:#ccc">4–8%</strong></li>
+          <li>₹2cr+ additional revenue as a side outcome</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- ══ NEXT PROJECT ══ -->
+  <div class="next-section r">
+    <div class="next-label">
+      <span>Dive into the next project</span>
+      <a href="portfolio.html">View all →</a>
+    </div>
+    <a href="portfolio.html" class="next-card">
+      <div class="next-thumb">
+        <div style="text-align:center">
+          <div style="font-size:32px;margin-bottom:4px">⚙</div>
+          <div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(123,97,255,.5)">CX-wise</div>
+        </div>
+      </div>
+      <div class="next-info">
+        <span class="next-tag">← Launched on CX-Wise @ Sprinklr</span>
+        <div class="next-title">CX-wise — Customer Experience Platform</div>
+        <p class="next-desc">Led the redesign of Sprinklr's CX-wise platform using the design system — flexible, consistent, and scalable across all brand touchpoints.</p>
+        <div class="next-stats">
+          <div class="nstat"><div class="nv">80%</div><div class="nl">System adoption</div></div>
+          <div class="nstat"><div class="nv">4k</div><div class="nl">Components</div></div>
+          <div class="nstat"><div class="nv">40%</div><div class="nl">Faster handoff</div></div>
+        </div>
+        <div class="view-btn">View case study <i class="bi bi-arrow-right"></i></div>
+      </div>
+    </a>
+  </div>
+ 
+</div>
+ 
+<!-- FOOTER -->
+<footer class="cs-foot">
+  <div class="foot-brand">Saati Chandy <span style="color:var(--muted);font-weight:400;font-size:13px">· Digital Designer</span></div>
+  <div class="foot-links">
+    <a href="portfolio.html">Portfolio</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Dribbble</a>
+    <a href="mailto:hello@saati.design">Email</a>
+  </div>
+</footer>
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+/* cursor */
+const cd=document.getElementById('cd'),cr=document.getElementById('cr');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cd.style.left=mx+'px';cd.style.top=my+'px'});
+(function l(){rx+=(mx-rx)*.13;ry+=(my-ry)*.13;cr.style.left=rx+'px';cr.style.top=ry+'px';requestAnimationFrame(l)})();
+ 
+/* reveal */
+const io=new IntersectionObserver(e=>{
+  e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('v');io.unobserve(x.target)}});
+},{threshold:.06});
+document.querySelectorAll('.r').forEach(el=>io.observe(el));
+ 
+/* show placeholders on load for empty src */
+document.querySelectorAll('.img-slot').forEach(img=>{
+  if(!img.src || img.src===window.location.href || img.getAttribute('src')==='#'){
+    img.style.display='none';
+    const ph=img.nextElementSibling;
+    if(ph) ph.style.display='flex';
+  }
+});
+ 
+/* count-up */
+const co=new IntersectionObserver(e=>{
+  e.forEach(x=>{
+    if(!x.isIntersecting)return;
+    const el=x.target,tgt=parseInt(el.dataset.target);
+    let c=0;const step=Math.ceil(tgt/50);
+    const t=setInterval(()=>{c=Math.min(c+step,tgt);el.textContent=c+'%';if(c>=tgt)clearInterval(t)},28);
+    co.unobserve(el);
+  });
+},{threshold:.5});
+document.querySelectorAll('[data-target]').forEach(el=>co.observe(el));
+</script>
+</body>
+</html>
