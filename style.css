@@ -143,10 +143,7 @@
       .hero-desc{
         text-align: center;
       }
-      .hero-bottom {
       
-        align-items: center;
-    }
     #fnav{
       left: 5%;
     }
@@ -230,7 +227,7 @@
       display: flex; align-items: flex-end;
       justify-content: space-between;
       gap: 20px; flex-wrap: wrap;
-      padding: 0 194px 10%;
+          padding: 0px 64px 10%;
       position: relative; z-index: 1;
       will-change: opacity, transform;
     }
@@ -488,7 +485,7 @@
     @media (max-width: 768px) {
       #topbar { padding: 14px 18px; }
       .tb-loc { display: none; }
-      .hero-bottom { padding: 0 58px 30px; align-items: flex-start; }
+    
       .project-block { grid-template-columns: 1fr; gap: 20px; }
       .project-block.flip { direction: ltr; }
       .exp-table td { display: block; padding: 4px 0; }
@@ -512,6 +509,10 @@
     }
     #fnav{
       left: 5%;
+    }
+
+    .hero-title-area h1{
+      font-size: 41;
     }
 
     }
