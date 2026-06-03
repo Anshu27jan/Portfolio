@@ -227,7 +227,7 @@
       display: flex; align-items: flex-end;
       justify-content: space-between;
       gap: 20px; flex-wrap: wrap;
-          padding: 0px 64px 10%;
+          padding: 0px 194px 10%;
       position: relative; z-index: 1;
       will-change: opacity, transform;
     }
@@ -483,8 +483,7 @@
        RESPONSIVE
     ════════════════════════════ */
     @media (max-width: 768px) {
-      #topbar { padding: 14px 18px; }
-      .tb-loc { display: none; }
+      #topbar { padding: 14px 28px; }
     
       .project-block { grid-template-columns: 1fr; gap: 20px; }
       .project-block.flip { direction: ltr; }
