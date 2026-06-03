@@ -488,7 +488,7 @@
     @media (max-width: 768px) {
       #topbar { padding: 14px 18px; }
       .tb-loc { display: none; }
-      .hero-bottom { padding: 0 98px 30px; align-items: flex-start; }
+      .hero-bottom { padding: 0 58px 30px; align-items: flex-start; }
       .project-block { grid-template-columns: 1fr; gap: 20px; }
       .project-block.flip { direction: ltr; }
       .exp-table td { display: block; padding: 4px 0; }
