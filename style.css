@@ -135,7 +135,26 @@
     .fnav-inner a i { font-size: 15px; opacity: .65; }
     .fnav-inner a.active i { opacity: 1; }
     .nav-label { display: inline; }
-    @media (max-width: 400px) { .nav-label { display: none; } }
+    @media (max-width: 400px) { .nav-label { display: none; }
+       #home {
+        min-height: 70vh;
+        grid-template-rows: unset;
+      }
+      .hero-desc{
+        text-align: center;
+      }
+      .hero-bottom {
+        padding: 0 58px 90px;
+        align-items: center;
+    }
+    #fnav{
+      left: 5%;
+    }
+
+    
+
+  
+  }
  
     /* ════════════════════════════
        HERO
@@ -487,8 +506,8 @@
       .hero-desc{
         text-align: center;
       }
-          .hero-bottom {
-        padding: 0 138px 90px;
+      .hero-bottom {
+        padding: 0 78px 90px;
         align-items: center;
     }
     #fnav{
