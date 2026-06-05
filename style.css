@@ -35,6 +35,12 @@
       transform: translate(-50%, -50%);
       transition: width .2s, height .2s, background .2s;
     }
+
+    .cs-bullets{list-style:none;display:flex;flex-direction:column;gap:8px;margin-top:12px;padding-left:1px;color:#888;font-size:13px;}
+.cs-bullets li::before{content:'→';left:-10px;color:#00c2ff;letter-spacing: 16px;top:3px; padding-left:1px;}
+.cs-bullets li strong{color:#ddd}
+.cs-bullets li em{color:var(--p);font-style:normal;font-weight:500}
+
     #cursor-ring {
       position: fixed;
       width: 36px; height: 36px;
