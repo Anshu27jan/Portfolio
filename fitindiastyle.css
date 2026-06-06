@@ -153,7 +153,7 @@ body:has(a:hover) #cr{width:48px;height:48px;border-color:rgba(255,255,255,.2)}
 /* ── next project card ── */
 .next-section{padding:48px 0;border-top:1px solid var(--border)}
 .next-label{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:20px;display:flex;align-items:center;justify-content:space-between}
-.next-label a{color:var(--p);font-size:12px;transition:color .2s}
+.next-label a{color:0fb6f8;font-size:12px;transition:color .2s}
 .next-label a:hover{color:#fff}
 .next-card{
   background:var(--card);border:1px solid var(--border);border-radius:16px;
@@ -163,7 +163,7 @@ body:has(a:hover) #cr{width:48px;height:48px;border-color:rgba(255,255,255,.2)}
 .next-card:hover{border-color:rgba(123,97,255,.35);transform:translateY(-4px);box-shadow:0 20px 50px rgba(0,0,0,.4)}
 
 .next-info{padding:28px 32px}
-.next-tag{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--p);margin-bottom:10px;display:block}
+.next-tag{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color: #0fb6f8;;margin-bottom:10px;display:block}
 .next-title{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;letter-spacing:-.01em;margin-bottom:8px}
 .next-desc{font-size:13px;color:var(--body-text);line-height:1.75;margin-bottom:18px;max-width:1000px}
 .next-stats{display:flex;gap:24px;margin-bottom:20px}
